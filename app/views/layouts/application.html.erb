@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Floresfiesta</title>
+  <title>Flores Fiesta</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-<%= yield %>
+	<%= yield %>
+  
+<!-- include jQuery -->
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 
 </body>
 </html>
