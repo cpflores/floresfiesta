@@ -1,10 +1,24 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:700,300);
+
 .parallax-window {
-	min-height: 1000px;
+	min-height: 450px;
   background: transparent;
 }
 
 h1 {
-  font-size: 250%
+  font-size: 250%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
 }
 
 .slide {
@@ -16,6 +30,16 @@ h1 {
 	transform-style: inherit;
 }
 
+.section {
+  position: relative;
+  padding: 5vh;
+  /*padding: 25vh;
+  min-height: 100vh;
+  width: 100vw;*/
+  box-sizing: border-box;
+  transform-style: inherit;
+}
+
 .title {
   width: 50%;
   padding: 5%;
@@ -25,6 +49,21 @@ h1 {
 .header {
   text-align: center;
   font-size: 200%;
+  color: #8E44AD;
+  font-family: Sans-Serif;
+}
+
+.sub {
+  text-align: center;
+  font-size: 150%;
+  webkit-text-fill-color: transparent;
+  font-family: Sans-Serif;
+  color: #8E44AD;
+}
+
+.footer {
+  text-align: center;
+  font-size: 400%;
   color: #8E44AD;
   font-family: Sans-Serif;
 }
